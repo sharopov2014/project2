@@ -1,0 +1,40 @@
+.about {
+  background-color: $green;
+
+  color: $white;
+  text-align: center;
+
+  .container {
+    display: flex;
+    gap: 50px;
+    padding-top: 400px;
+  }
+  .chiziq {
+    padding: 50px;
+  }
+  h1 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+  }
+
+  p {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    align-items: center;
+    color: $white;
+  }
+
+  .container {
+    display: flex;
+    gap: 50px;
+    padding: 120px 0;
+    width: 1100px;
+    margin: auto;
+  }
+}

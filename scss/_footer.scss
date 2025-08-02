@@ -1,0 +1,89 @@
+html,
+body {
+  font-family: "Livvic", sans-serif;
+}
+.yangi-qator {
+  padding: 76px 263px;
+  display: flex;
+  align-items: center;
+  gap: 160px;
+  background-color: rgb(246, 126, 126);
+}
+
+.ready {
+  font-family: Livvic;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: 0px;
+  color: rgb(1, 46, 51);
+
+  text-align: center;
+}
+.be {
+  align-items: center;
+  margin-top: 100px;
+  width: 163px;
+  height: 48px;
+  font-family: "Livvic", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  border: 1px solid black;
+  border-radius: 24px;
+  padding: 9px 33px 11px 32px;
+  background-color: rgb(246, 126, 126);
+  color: rgb(1, 46, 51);
+}
+
+.footer {
+  background-color: black;
+}
+ul {
+  display: flex;
+  gap: 40px;
+  text-decoration: none;
+}
+.nav-men {
+  font-family: Livvic;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0px;
+  color: white;
+}
+.src {
+  padding-bottom: 40px;
+  padding-top: 60px;
+  padding-left: 50px;
+}
+.put {
+  color: #fff;
+  font-family: Livvic;
+  font-weight: 600;
+  font-size: 15px;
+  opacity: 60%;
+  line-height: 25px;
+  letter-spacing: 0px;
+}
+.footer {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 700px;
+  padding-bottom: 70px;
+}
+.fote {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.cop {
+  opacity: 50%;
+  color: white;
+  padding-top: 20px;
+}
+.foot2 {
+  padding-top: 50px;
+}

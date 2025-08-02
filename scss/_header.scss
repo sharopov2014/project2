@@ -1,0 +1,43 @@
+.header {
+  background-color: $green;
+  padding: 73px 165px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+    a {
+      color: $white;
+      text-decoration: none;
+      font-family: Livvic;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 28px;
+      letter-spacing: 0px;
+    }
+  }
+
+  .contact-btn {
+    background: transparent;
+    border: 2px solid $white;
+    padding: 9px 33px 11px;
+    border-radius: 24px;
+    color: $white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 1s;
+
+    &:hover {
+      background-color: $accent;
+      border-color: $accent;
+      color: $primary;
+    }
+  }
+}
